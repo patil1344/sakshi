@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f02c7d, #49c4e2);
+    color: #333;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 1.1em;
+    margin: 0 20px;
+}
+
+/* Highlighted Heading Style */
+.highlighted-heading {
+    font-size: 2.5em;
+    color: #000000b6;
+    background-color: #e97531ab;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 10px;
+    border-bottom: 2px solid #feb47b;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #332c2c;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    color: #feb47b;
+}
+
+/* Hero Section */
+#home {
+    padding: 100px 20px;
+    border: 2px solid #feb47b;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.5em;
+    
+}
+
+/* About Me Section */
+#about {
+    padding: 50px 20px;
+    background-color: rgba(235, 230, 225, 0.418);
+    border: 2px solid #feb47b;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+/* Hobbies Section */
+#hobbies {
+    padding: 50px 20px;
+    background-color: rgba(219, 204, 204, 0.4);
+    border: 2px solid #feb47b;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: rgba(247, 238, 238, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 2px solid #feb47b;
+}
+
+table th {
+    background-color: #feb47b;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Achievements Section */
+#achievements {
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid #feb47b;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.achievements-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.achievement-photo {
+    border: 2px solid #feb47b;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.achievement-photo img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.achievement-info p {
+    font-size: 1em;
+    color: #fff;
+}
+
+/* Resume Section */
+#resume {
+    padding: 50px 20px;
+    background-color: rgba(248, 200, 128, 0.4);
+    border: 2px solid #ffd16f;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#resume a {
+    color: #eb8233
+}
